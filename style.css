@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color:	#20B2AA;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-image: url("header.png");
+  background-position: center;
+}
+
+header > h1 {
+  color: #24272E;
+  text-align: center;
+  font-family: Asap, sans-serif;
+}
+
+footer {
+  height: 70px;
+  margin-top: 85px;
+  background-image: url("header.png");
+  background-position: center;
+}
+
+.scoreboard {
+  border: 3px solid white;
+  border-radius: 4px;
+  margin: 35px auto;
+  width: 200px;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  padding: 20px 15px;
+  font-family: Asap, sans-serif;
+  position: relative;
+}
+
+.badge {
+  background-color: #ff6666;
+  color: white;
+  font-size: 14px;
+  padding: 2px 10px;
+  font-family: Asap, sans-serif;
+}
+
+#user-label {
+  position: absolute;
+  top: 28px;
+  left: -24px;
+
+}
+
+#comp-label {
+  position: absolute;
+  top: 28px;
+  right: -28px;
+
+}
+
+#user-score {
+  position: inherit;
+  left: -30px;
+}
+
+.vl {
+  border-left: 2px solid white;
+  height: 72px;
+  position: absolute;
+  left: 95px;
+  top: 0px;
+}
+
+#comp-score {
+  position: inherit;
+  right: -30px;
+}
+
+.result {
+  font-size: 36px;
+  color: white;
+}
+
+.result > p {
+  text-align: center;
+  font-family: Asap, sans-serif;
+  font-weight: bold;
+}
+
+.choices {
+  text-align: center;
+  margin: 50px 0px;
+
+
+}
+
+.choice {
+
+  padding: 20px;
+  margin: 0px 15px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  justify-content: center;
+}
+
+.choice:hover {
+  cursor:pointer;
+  background: #ffe066;
+}
+
+#r {
+  width: 120px;
+}
+
+#p {
+  width: 110px;
+  height: 86px;
+}
+
+#s {
+  height: 86px;
+  width: 110px;
+}
+
+.action {
+  margin-top: 25px;
+}
+
+#action-message {
+  text-align: center;
+  color: white;
+  font-family: Asap, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
